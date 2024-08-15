@@ -1,0 +1,58 @@
+Java Soultion:
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        
+        
+        //===============
+        String s = scan.nextLine().trim();
+        scan.close();
+        
+        if (s.isEmpty()) {
+            System.out.println(0);
+        } else {
+            String[] tokens = s.split("[ !,?._'@]+");
+            System.out.println(tokens.length);
+            for (String token : tokens) {
+                System.out.println(token);
+            }
+        }
+        
+        
+        
+        /*String s = scan.nextLine().trim();
+        scan.close();
+        String[] tokens=s.split("[ !,?._'@]+");
+        System.out.println(tokens.length);
+        for(String token:tokens)
+        {
+            System.out.println(token);
+        }
+    }
+    */
+}
+}
+
+
+/*
+
+
+Scanner sc = new Scanner(System.in);
+String S = sc.nextLine();
+
+S = String.split()
+
+for(int i=0; i<=s[i]; i++){
+    return
+}
+
+scan.close();
+
+
+
+*/
